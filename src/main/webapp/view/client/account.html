@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products | RedStore</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/images/logo2.png" alt="logo" width="150px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+
+                        <li><a href="products-iphone.jsp">iPhone</a></li>
+                        <li><a href="products-mac.jsp">Mac</a></li>
+                        <li><a href="products-ipad.jsp">iPad</a></li>
+                        <li><a href="products-watch.jsp">Watch</a></li>
+                    </ul>
+                </nav>
+                <div class="search-box">
+                    <button class="btn-search"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <input type="text" class="input-search" placeholder="iPhone 13...">
+                </div>
+                <a href="cart.jsp">
+                    <img src="assets/images/cart.png" width="40px" height="40px">
+                    <span class="header__cart-notice">
+                        3
+                    </span>
+                </a>
+                <div id="link-account">
+                    <a href="account.html"><img src="assets/images/account.png" width="40px" height="40px"></a>
+                </div>
+                <div id="link-sign-in" style=" margin-left: 35px;"><a href="./signIn.html">
+                        <p>Đăng nhập</p>
+                    </a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Single Products -->
+    <div class="small-container single-product">
+
+        <div class="row product-detail-container">
+
+            <div class="col-2 col-2-help">
+                <img src="assets/images/custommer/kh1.jpg" width="450px" id="ProductImg">
+            </div>
+            <div class="col-2 col-2-help">
+                <h1 class="white name-customer">Nguyễn Văn Thanh</h1>
+                <h3 class="white "><i class="fa fa-help fa-phone-square white" aria-hidden="true"> </i> Số điện thoại:
+                    0394643873
+                </h3>
+                <h3 class="white "><i class="fa fa-help fa-map-marker white" aria-hidden="true"> </i> Địa chỉ: Tuy An,
+                    Phú Yên
+                </h3>
+                <h3 class="white "><i class="fa fa-help fa-calendar-check-o white" aria-hidden="true"> </i> Tham gia
+                    ngày: 20/08/2021</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="small-container id-products">
+            <h1 class="title title-history-order"> Lịch sử mua hàng </h2>
+        </div>
+    </div>
+
+    <div class="small-container cart-page cart-container">
+        <div class="cart-div">
+            <table>
+                <tr>
+                    <th>Sản phẩm</th>
+                    <th>Số lượng</th>
+                    <th>Giá</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="assets/images/iphone/iphone-13-red-650x650.png">
+                            <div>
+                                <p>iPhone 13 RED 256GB</p>
+                                <small>27.990.000đ</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>27.990.000đ</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="assets/images/iphone/iphone-13-pro-max-gold-650x650.png">
+                            <div>
+                                <p>iPhone 13 PRO MAX GOLD 256GB</p>
+                                <small>37.990.000đ</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>37.990.000đ</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="assets/images/iphone/iphone-13-pro-max-silver-650x650.png">
+                            <div>
+                                <p>iPhone 13 PRO MAX SILVER 256GB</p>
+                                <small>37.990.000đ</small>
+                                <br>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>37.990.000đ</td>
+                </tr>
+            </table>
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Tổng cộng</td>
+                        <td>$200.00</td>
+                    </tr>
+                    <tr>
+                        <td>Giảm giá</td>
+                        <td>$35.00</td>
+                    </tr>
+                    <tr>
+                        <td>Thành tiền</td>
+                        <td>$230.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-3">
+                    <h3>Hệ thống cửa hàng</h3>
+                    <ul>
+                        <li><a href="">Nội quy cửa hàng</a></li>
+                        <li><a href="">Chất lượng dịch vụ</a></li>
+                        <li><a href="">Xem 4 cửa hàng</a></li>
+                        <li><a href="">Bảo hành và đổi trả</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Hỗ trợ khách hàng</h3>
+                    <ul>
+                        <li><a href="">Điều kiện giao dịch chung</a></li>
+                        <li><a href="">Hướng dẫn mua hàng online</a></li>
+                        <li><a href="">Chính sách giao hàng</a></li>
+                        <li><a href="">Hướng dẫn thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Về thương hiệu ASTORE</h3>
+                    <ul>
+                        <li><a href="">Giới thiệu về ASTORE</a></li>
+                        <li><a href="">Bán hàng doanh nghiệp</a></li>
+                        <li><a href="">Chính sách bảo mật thông tin</a></li>
+                        <li><a href="">Chính sách ưu đãi</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <a href="./index.html">
+                        <img src="assets/images/logo1.png" />
+                    </a>
+                    <p>Trải nghiệm tốt nhất về sản phẩm và dịch vụ của Apple tới toàn bộ người dùng tại Việt Nam.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright"> © 2018. Công ty AGROUP0. GPDKKD: 0303217354 do sở KH & ĐT TP.HCM cấp ngày 02/01/2007.
+            </p>
+            <p class="copyright"> GPMXH: 238/GP-BTTTT do Bộ Thông Tin và Truyền Thông cấp ngày 04/06/2020. </p>
+        </div>
+    </div>
+
+
+    <div id="help">
+        <a href="help.jsp"><img src="./assets/images/help.png" alt="help"></a>
+    </div>
+
+    <!-- scroll to top -->
+    <a id="button-scroll" onclick="topFunction()"></a>
+
+    <!-- javascript -->
+
+    <script>
+
+    </script>
+    <!--icon account-->
+    <script>
+
+    </script>
+    <!-- product gallery -->
+    <script>
+
+
+    </script>
+
+    <script src="./assets/js/format-page.js"></script>
+    <script src="./assets/js/account.js"></script>
+</body>
+
+</html>
